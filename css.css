@@ -3,26 +3,31 @@
 .body {
 	font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
 }
-.line {
+.line 
+{
 	width: 80px;
 	border-top: 2px ridge #008ED6;
 }
-.line-white {
+.line-white 
+{
 	width: 80px;
 	border-top: 2px ridge #FFFFFF;
 }
-.title {
+.title 
+{
 	text-align: center;
 	font-size: 36px;
 	margin-top: 5%;
 }
-.title-2 {
+.title-2 
+{
 	text-align: center;
 	font-size: 14px;
 	font-weight: lighter;
 	margin-bottom: 5%;
 }
-.title-2-white {
+.title-2-white
+{
 	text-align: center;
 	font-size: 14px;
 	font-weight: lighter;
@@ -33,7 +38,8 @@
 /* 导航 */
         
 /*导航宽屏时主体部分*/
-nav {
+nav 
+{
 	width: 100%;
 	height: 70px;
 	background-color: #FFF;
@@ -44,39 +50,46 @@ nav {
 	box-shadow: 0px 1px 10px #CFCFCF;
 	top: 0px;
 }
-.nav {
+.nav 
+{
 	max-width: 80%;
 	margin: auto auto;
 	margin-top: 0px;
 }
-.logo {
+.logo 
+{
 	width: 15%;
 	height: 70px;
 	float: left;
 	margin: 0px 0;
 }
-.logo img {
+.logo img 
+{
   height: 60px;
 	display: block;
 	margin: 5px 0;
 }
-.navbar {
+.navbar
+{
 	width: 85%;
 	height: 100%;
 	float: right;
 }
-.navbar ul {
+.navbar ul 
+{
 	list-style: none;
 	height: 50px;
 	float: right;
 	margin: 10px auto;
 }
-.navbar li {
+.navbar li 
+{
 	height: 50px;
 	float: left;
 	padding: 0 10px;
 }
-.navbar a {
+.navbar a 
+{
 	display: block;
 	width: 100%;
 	height: 50px;
@@ -86,12 +99,14 @@ nav {
 	color: #808080;
 	font-size: 16px;
 }
-.navbar a:hover {
+.navbar a:hover 
+{
 	color: #008ED6;
 }
 
 /*媒体查询屏幕宽度小于768px时生效以下效果*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px)
+{
 /*
                 1、navbar定位到nav下方，宽度撑满屏幕
                 2、高度给成0
@@ -108,18 +123,21 @@ nav {
 	background-color: #fff;
 	overflow: scroll;
 }
-.navbar ul {
+.navbar ul 
+	{
 	width: 100%;
 	height: 200px;
-}
-.navbar li {
+        }
+.navbar li 
+	{
 	width: 80%;
 	margin: 0 auto;
 	float: none;
-}
-.navbar a {
+        }
+.navbar a 
+	{
 	text-align: left;
-}
+        }
 }
 /*按钮部分，宽屏时是隐藏的*/
 .btn {
@@ -134,11 +152,13 @@ nav {
 	opacity: 0.8;
 	transition: all 0.5s;
 	cursor: pointer;
-}
-.btn:hover {
+      }
+.btn:hover 
+{
 	opacity: 1;
 }
-.btn span {
+.btn span 
+{
 	display: block;
 	width: 200%;
 	height: 4px;
@@ -153,37 +173,44 @@ nav {
 	display: block;
 }
 
-.index-text {
+.index-text 
+	{
 	text-align: center;
 	color: #FFF;
 	font-size: 28px;
 	margin-top: 40px;
 	margin-left: 40px;
 	margin-right: 40px;
-}	
-.aboutus-us {
+        }	
+.aboutus-us 
+	{
 	margin-left: 80px;
 	margin-right: 80px;
 	margin-bottom: 20px;
-}
-.leader-xulei {
+        }
+.leader-xulei 
+	{
 	margin-left: 80px;
 	margin-right: 80px;
-}
-.connect-us-pic {
+        }
+.connect-us-pic 
+	{
 	margin-bottom: 30px;
 	margin-top: 30px;
-}
-.connect-us-titletext {
+        }
+.connect-us-titletext 
+	{
 	text-align: center;
 	margin-bottom: -10%;
-}
-.connect-us-contenttext {
+        }
+.connect-us-contenttext 
+	{
 	text-align: center;
-}	
+        }	
 }
 /* 首页 */
-.index {
+.index 
+{
 	width: 100%;
 	height: 800px;
 	background-image: url(images/road.jpg);
@@ -193,21 +220,25 @@ nav {
 	margin-top: 70px;
 	background-position: center;
 }
-.index-logo {
+.index-logo 
+{
 	padding-top: 100px;
 	text-align: center;
 	width: 100%;
 }
-.index-logo img {
+.index-logo img 
+{
 	width: 400px;
 }
-.index-text {
+.index-text 
+{
 	text-align: center;
 	color: #FFF;
 	font-size: 28px;
 	margin-top: 40px;
 }
-.index-logo-text {
+.index-logo-text 
+{
   position:absolute;
   top:50%;
   left:46%;
@@ -216,18 +247,21 @@ nav {
 	font-size: 28px;
 }
 /* 关于我们 */
-.aboutus-us-pic {
+.aboutus-us-pic 
+{
 	text-align: center;
 	margin-bottom: 45px;
 	width: 100%;
 }
-.aboutus-us-title {
+.aboutus-us-title
+{
 	text-align: center;
 	color: #008ED6;
 	font-size: 25px;
 	margin-bottom: 20px;
 }
-.aboutus-us-text {
+.aboutus-us-text 
+{
 	text-align: center;
 	color: #919191;
 	margin-left: 40px;
@@ -235,76 +269,91 @@ nav {
 	font-size: 14px;
 	font-weight: lighter;
 }
-.aboutus-us {
+.aboutus-us
+{
 	border: solid 1px #EAEAEA;
 	border-bottom: 4px solid #EAEAEA;
 	padding-bottom: 10%;
 	padding-top: 10%;
 	background: #fff;
 }
-.aboutus-us:hover {
+.aboutus-us:hover 
+{
 	border-bottom: 4px solid #008ED6;
 	transition: border-bottom 0.5s linear;
 }
 /* 技术展示 */
-.tech-title {
+.tech-title
+{
 	font-size: 24px;
 	font-weight: bold;
 	margin-bottom: 10px;
 }
-.tech-text {
+.tech-text 
+{
 	font-size: 18px;
 	font-weight: lighter;
 }
 /* 企业文化 */
-.culture-honest {
+.culture-honest 
+
+{
 	padding-left: 5%;
 	padding-right: 5%;
 }
-.culture-honest-pic {
+.culture-honest-pic 
+{
 	text-align: center;
 	padding-bottom: 5%;
 	width: 100%;
 }
-.culture-honest-title {
+.culture-honest-title 
+{
 	text-align: center;
 	color: #008ED6;
 	margin-bottom: 1%;
 	font-size: 20px;
 }
 /* 领导团队 */
-.leader-xulei {
+.leader-xulei 
+{
 	border: solid 1px #EAEAEA;
 	border-bottom: 4px solid #EAEAEA;
 	padding-bottom: 10%;
 	padding-top: 10%;
 	background: #fff;
 }
-.leader-xulei:hover {
+.leader-xulei:hover
+{
 	border-bottom: 4px solid #008ED6;
 	transition: border-bottom 0.5s linear;
 }
-.leader-pic {
+.leader-pic 
+{
 	text-align: center;
 }
-.leader-pic img {
+.leader-pic img 
+{
 	height: inherit;
 	width: 150px;
 	position: relative;
 	top: 75px;
 }
-.leader-name {
+.leader-name
+{
 	text-align: center;
 	color: #008ED6;
 	font-size: 16px;
 	margin-top: 60px
 }
-.leader-job {
+.leader-job 
+{
 	text-align: center;
 	color: #979797;
 	font-size: 14px;
 }
-.leader-title1 {
+.leader-title1 
+{
 	text-align: center;
 	color: #979797;
 	font-weight: lighter;
@@ -313,32 +362,38 @@ nav {
 	line-height: 30px;
 	margin-top: 16px
 }
-.leader-title2 {
+.leader-title2 
+{
 	text-align: center;
 	color: #979797;
 	font-weight: lighter;
 	font-size: 12px;
 	margin: auto 20px;
 }
-.leader-center {
+.leader-center 
+{
 	text-align: center;
 	width: 100%;
 }
 /* 岗位招聘 */
-.table > thead > tr > td.jobs-blue, .table > tbody > tr > td.jobs-blue, .table > tfoot > tr > td.jobs-blue, .table > thead > tr > th.jobs-blue, .table > tbody > tr > th.jobs-blue, .table > tfoot > tr > th.jobs-blue, .table > thead > tr.jobs-blue > td, .table > tbody > tr.jobs-blue > td, .table > tfoot > tr.jobs-blue > td, .table > thead > tr.jobs-blue > th, .table > tbody > tr.jobs-blue > th, .table > tfoot > tr.jobs-blue > th {
+.table > thead > tr > td.jobs-blue, .table > tbody > tr > td.jobs-blue, .table > tfoot > tr > td.jobs-blue, .table > thead > tr > th.jobs-blue, .table > tbody > tr > th.jobs-blue, .table > tfoot > tr > th.jobs-blue, .table > thead > tr.jobs-blue > td, .table > tbody > tr.jobs-blue > td, .table > tfoot > tr.jobs-blue > td, .table > thead > tr.jobs-blue > th, .table > tbody > tr.jobs-blue > th, .table > tfoot > tr.jobs-blue > th 
+{
 	background-color: #DDEBF7;
 }
-.table-hover > tbody > tr > td.jobs-blue:hover, .table-hover > tbody > tr > th.jobs-blue:hover, .table-hover > tbody > tr.jobs-blue:hover > td, .table-hover > tbody > tr.jobs-blue:hover > th {
+.table-hover > tbody > tr > td.jobs-blue:hover, .table-hover > tbody > tr > th.jobs-blue:hover, .table-hover > tbody > tr.jobs-blue:hover > td, .table-hover > tbody > tr.jobs-blue:hover > th 
+{
 	background-color: #D7E8F5;
 }
-.table-hover > tbody > tr > td:hover, .table-hover > tbody > tr > th:hover, .table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+.table-hover > tbody > tr > td:hover, .table-hover > tbody > tr > th:hover, .table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th 
+{
 	cursor:pointer;
 }
 
 
 
 /*   岗位招聘-按钮CSS样式 */
-  .jobs-btn {
+  .jobs-btn
+{
   display: inline-block;
   margin-bottom: 0;
   font-weight: normal;
@@ -364,18 +419,21 @@ nav {
 .jobs-btn.active:focus,
 .jobs-btn.focus,
 .jobs-btn:active.focus,
-.jobs-btn.active.focus {
+.jobs-btn.active.focus 
+{
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 .jobs-btn:hover,
 .jobs-btn:focus,
-.jobs-btn.focus {
+.jobs-btn.focus 
+{
   color: #333333;
   text-decoration: none;
 }
 .jobs-btn:active,
-.jobs-btn.active {
+.jobs-btn.active 
+{
   outline: 0;
   background-image: none;
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
@@ -385,7 +443,8 @@ nav {
 .jobs-btn[disabled],
 
 /* 新闻信息 */
-.news-block {
+.news-block 
+{
 	width: 78.75%;
 	height: auto;
 	border: 1px solid #EBEBEB;
@@ -393,19 +452,23 @@ nav {
 	margin: 30px auto;
 	color: #AAAAAA;
 }
-.news-block a:hover {
+.news-block a:hover
+{
     text-decoration: none;
 	color: #AAAAAA;
 }
-.news-pic {
+.news-pic 
+{
 	width: 100%;
 }
-.news-time {
+.news-time 
+{
 	color: #AAAAAA;
 	font-weight: bold;
 	margin: 10px 14px;
 }
-.news-text {
+.news-text
+{
 	font-weight: lighter;
 	font-size: 8px;
 	margin: 20px 14px;
@@ -413,14 +476,16 @@ nav {
 	max-height: 50px;
 	color: #AAAAAA;
 }
-.news-block:hover {
+.news-block:hover 
+{
 	border-bottom: 4px solid #008ED6;
 	transition: border-bottom 0.5s linear;
 }
 
 
 /*联系我们*/
-.connect-us {
+.connect-us
+{
 	width: 100%;
 	height: auto;
 	background-image: url("images/bg3.png");
@@ -429,42 +494,57 @@ nav {
 	background-repeat: no-repeat;
 	background-position: center;
 }
-.connect-us-pic {
+.connect-us-pic 
+{
 	width: 50px;
 	height: 50px;
 }
-.connect-us-titletext {
+.connect-us-titletext 
+{
 	font-size: 28px;
 	color: #FFFFFF;
 }
-.connect-us-contenttext {
+.connect-us-contenttext 
+{
 	font-size: 14px;
 	color: #B5B5B5;
 	line-height: 15px;
 }
 
 /*客户展示*/
-li{list-style: none;}
-.ab-title1{width:75%;margin:80px auto 50px auto;}
-.ab-title1 ul{width: 100%;overflow: hidden;}
-.ab-title1 ul li{float: left;width:16.666%;}
-.ab-title1 ul li img{width: 100%;}
+li{list-style: none;
+}
+.ab-title1{width:75%;margin:80px auto 50px auto;
+}
+.ab-title1 ul{width: 100%;overflow: hidden;
+}
+.ab-title1 ul li{float: left;width:16.666%;
+}
+.ab-title1 ul li img{width: 100%;
+}
 
 /*底部*/
 .footer-footer{width: 100%;background: url(./images/footer_bg.png) no-repeat center;background-size: 100% 100%;
-height: 180px;}
-.footer-footer .foot-txt{width:70%;margin: 0 auto;overflow: hidden;}
-.footer-footer .foot-txt .foot-left{float: left;width:60%;overflow: hidden;margin-top: 50px;}
+height: 180px;
+}
+.footer-footer .foot-txt{width:70%;margin: 0 auto;overflow: hidden;
+}
+.footer-footer .foot-txt .foot-left{float: left;width:60%;overflow: hidden;margin-top: 50px;
+}
 .footer-footer .foot-txt .foot-left a img{float: left;width: 10%;margin-top:7%;
-animation: myfirst 1.5s infinite;/*无限次跳动*/infinite}
-@keyframes myfirst {
-  0% {
+animation: myfirst 1.5s infinite;/*无限次跳动*/infinite
+}
+@keyframes myfirst
+{
+  0% 
+	{
     transform: translate(0px, 0px);
-  }
+	}
   50% {
     transform: translate(10px, 0px);
-  }
-  100% {
+      }
+  100% 
+  {
     transform: translate(0px, 0px);
   }
 }
