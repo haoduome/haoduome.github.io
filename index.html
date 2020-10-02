@@ -12,29 +12,41 @@
 <script src="js/modal.min.js"></script>
 <link href="css/banner.css" rel="stylesheet" type="text/css">
 <script src="js/banner.js" type="text/javascript"></script>
-<link rel="shortcut icon" href="/img/logo.ico"/>
+<link rel="shortcut icon" href="/images/logo.ico"/>
 </head>
 <body>
 <div class="body">
 <!-- 导航 -->
 <nav>
   <div class="nav">
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/duome-logo.png">
+      </a>
+    </div>
     <div id="btn" class="btn"> <span></span> <span></span> <span></span> </div>
     <div id="navbar" class="navbar">
       <ul>
-        <li><a href="#aboutus">关于我们</a></li>
+        <li><a href="duome.html#aboutus">关于我们</a></li>
+        <li><a href="duome.html#culture">企业文化</a></li>
+        <li><a href="duome.html#business">主营业务</a></li>
+        <li><a href="duome.html#clients">客户展示</a></li>
+        <li><a href="duome.html#jobs">岗位招聘</a></li>
+        <li><a href="duome.html#connect">联系我们</a></li>
       </ul>
     </div>
   </div>
 </nav>
 <!-- 首页 -->
 <div class="index">
-  <div class="index-logo"><img alt="多么文化" src="img/light.png" ></div>
-  <div class="index-text">
-    <p>服务客户 多么精彩</p>
+  <div class="index-logo">
+    <img alt="多么文化" src="images/light.png" >
+    <div class="index-logo-text">
+      <p>多么文化</p>
+    </div>
   </div>
-  <div id="aboutus"></div>
 </div>
+
 
 <!-- 弹出框JS事件 -->
 <script>
@@ -143,10 +155,10 @@
     var navMinH = 80;
 
     btn.onclick = function () {
-        
+
         // 判定布尔值
         if (bol){
-            
+
             navbar.style.borderTop = "1px solid #fff";
 
             timer = setInterval(function () {
@@ -172,9 +184,9 @@
             //布尔值改为false，下次点击时，就会执行else中的语句
             bol = false;
         }else{
-            
+
             navbar.style.borderTop = "0";
-            
+
             timer = setInterval(function () {
                 t-=10;
                 navT-=10;
@@ -183,7 +195,7 @@
                 if (navT<=navMinH){
                     navT = navMinH;
                 }
-                
+
                 //navbar下限
                 if (t<=minH){
                     t = minH;
